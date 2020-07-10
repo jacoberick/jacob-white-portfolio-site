@@ -1,8 +1,9 @@
+/* eslint-disable */
 import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <img
         id="aboutPic"
         src={require("../imgs/aboutPic.JPG")}

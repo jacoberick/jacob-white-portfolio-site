@@ -1,58 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
 
+$background: #F1FAEE
+$highlight: #E63946
+
+*
+  box-sizing: border-box
+
 html, body
-  background-color: #F1FAEE
+  background-color: $background
 
 body
   border: 10px solid #1D3557
   margin: 0
 
-  .nav
+  .header
+    position: fixed
+    z-index: 2
+    top: 0
+    left: 0
+    width: 100%
     padding: 3rem 10rem
-    display: flex
-    justify-content: space-between
-    font-size: 1.2rem
-    align-items: center
 
-    .logo-text
-      border: 4px solid #E63946
-      padding: .6rem .6rem
-      color: #1D3557
-      text-decoration: none
+    .nav
+      display: flex
+      justify-content: space-between
+      font-size: 1.2rem
+      align-items: center
+      background-color: $background
+      padding: 1rem 2rem
 
-
-    #line
-      border: 1px solid red
-      width: 100%
-      margin-left: 3.5rem
-
-    .nav-right
-      a
-        margin-left: 3.5rem
-        text-decoration: none
+      .logo-text
+        border: 4px solid $highlight
+        padding: .6rem .6rem
         color: #1D3557
-        font-family: 'Roboto', sans-serif
+        text-decoration: none
 
-        &:hover
-          font-style: italic
+      #line
+        border: 1px solid red
+        width: 100%
+        margin-left: 3.5rem
+
+      .nav-right
+        a
+          margin-left: 3.5rem
+          text-decoration: none
+          color: #1D3557
+          font-family: 'Roboto', sans-serif
+
+          &:hover
+            font-style: italic
 
   .quote-section
+    position: relative
+    height: calc(100vh - 5rem)
+    display: flex
+    align-items: center
+    justify-content: center
+
+    @media only screen and (max-height: 650px)
+      min-height: 800px
+
+
     #quote
       text-align: center
       padding: 5rem 0
+      margin: 0
       font-size: 6rem
       color: #1D3557
+
+    &__arrow
+      display: inline-block
+      position: absolute
+      bottom: 2rem
+      left: 50%
+      transform: translateX(-50%)
 
     .arrow
       border: solid #457B9D
       border-width: 0 3px 3px 0
+      padding: 1rem
       display: inline-block
-      position: absolute
-      top: 84%
-      left: 47%
-      padding: 1.2rem
-
-    .down
       transform: rotate(45deg)
 
   #aboutPic
