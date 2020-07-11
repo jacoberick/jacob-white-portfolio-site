@@ -9,7 +9,9 @@ import About from "./components/About";
 function App() {
   return (
     <div>
-      <Header /> <Quote /> <About />
+      <Header />
+      <Quote />
+      <About />
     </div>
   );
 }

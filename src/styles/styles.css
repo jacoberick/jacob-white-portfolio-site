@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   background-color: #F1FAEE;
 }
@@ -7,49 +11,73 @@ body {
   border: 10px solid #1D3557;
   margin: 0;
 }
-body .nav {
+body .header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 3rem 10rem;
+}
+body .header .nav {
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
   align-items: center;
+  background-color: #F1FAEE;
+  padding: 1rem 2rem;
 }
-body .nav .logo-text {
+body .header .nav .logo-text {
   border: 4px solid #E63946;
   padding: 0.6rem 0.6rem;
   color: #1D3557;
   text-decoration: none;
 }
-body .nav #line {
+body .header .nav #line {
   border: 1px solid red;
   width: 100%;
   margin-left: 3.5rem;
 }
-body .nav .nav-right a {
+body .header .nav .nav-right a {
   margin-left: 3.5rem;
   text-decoration: none;
   color: #1D3557;
   font-family: "Roboto", sans-serif;
 }
-body .nav .nav-right a:hover {
+body .header .nav .nav-right a:hover {
   font-style: italic;
+}
+body .quote-section {
+  position: relative;
+  height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-height: 650px) {
+  body .quote-section {
+    min-height: 800px;
+  }
 }
 body .quote-section #quote {
   text-align: center;
   padding: 5rem 0;
+  margin: 0;
   font-size: 6rem;
   color: #1D3557;
+}
+body .quote-section__arrow {
+  display: inline-block;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 body .quote-section .arrow {
   border: solid #457B9D;
   border-width: 0 3px 3px 0;
+  padding: 1rem;
   display: inline-block;
-  position: absolute;
-  top: 84%;
-  left: 47%;
-  padding: 1.2rem;
-}
-body .quote-section .down {
   transform: rotate(45deg);
 }
 body #aboutPic {
