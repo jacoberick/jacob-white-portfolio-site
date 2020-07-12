@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
 
 $background: #F1FAEE
 $highlight: #E63946
+$primary: #1D3557
+$secondary: #3B6A88
 
 *
   box-sizing: border-box
@@ -10,7 +13,7 @@ html, body
   background-color: $background
 
 body
-  border: 10px solid #1D3557
+  border: 10px solid $primary
   margin: 0
 
   .header
@@ -32,8 +35,9 @@ body
       .logo-text
         border: 4px solid $highlight
         padding: .6rem .6rem
-        color: #1D3557
+        color: $primary
         text-decoration: none
+        border-radius: 5px
 
       #line
         border: 1px solid red
@@ -44,7 +48,7 @@ body
         a
           margin-left: 3.5rem
           text-decoration: none
-          color: #1D3557
+          color: $primary
           font-family: 'Roboto', sans-serif
 
           &:hover
@@ -54,6 +58,7 @@ body
     position: relative
     height: calc(100vh - 5rem)
     display: flex
+    flex-direction: column
     align-items: center
     justify-content: center
 
@@ -63,10 +68,29 @@ body
 
     #quote
       text-align: center
-      padding: 5rem 0
-      margin: 0
+      margin: 5rem 0 0 0
+      padding-bottom: 2rem
       font-size: 6rem
-      color: #1D3557
+      color: $primary
+
+    #sub-quote
+      font-weight: 300
+      color: $secondary
+      font-size: 2rem
+      margin-bottom: 5rem
+      font-family: 'Open Sans', sans-serif
+
+
+    .link-icons
+      .fab
+        color: $primary
+        font-size: 2.5rem
+
+        &:hover
+          color: $highlight
+
+      .fa-twitter
+        margin: 0 3rem
 
     &__arrow
       display: inline-block
@@ -76,11 +100,43 @@ body
       transform: translateX(-50%)
 
     .arrow
-      border: solid #457B9D
+      border: solid $primary
       border-width: 0 3px 3px 0
       padding: 1rem
       display: inline-block
       transform: rotate(45deg)
+      transition: .25s
 
-  #aboutPic
-    margin-top: 10rem
+      &:hover
+        border-width: 0 5px 5px 0
+
+  #about-section
+    height: 50vh
+    display: flex
+    align-items: center
+    justify-content: space-around
+    margin: 10rem 10rem
+
+    #aboutPic
+      height: 250px
+      width: 250px
+      border: 5px solid $primary
+      border-radius: 5px
+
+    p
+      font-family: 'Open Sans', sans-serif
+      color: $primary
+      padding-left: 5.4rem
+      font-size: 1.25rem
+      line-height: 2
+
+      .first-letter
+        color: $highlight
+        float: left
+        font-family: Georgia
+        font-size: 5.5rem
+        line-height: 70px
+        background-color: $primary
+        padding: 3px
+        margin-right: .5rem
+        border-radius: 5px

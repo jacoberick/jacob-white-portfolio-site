@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -32,6 +33,7 @@ body .header .nav .logo-text {
   padding: 0.6rem 0.6rem;
   color: #1D3557;
   text-decoration: none;
+  border-radius: 5px;
 }
 body .header .nav #line {
   border: 1px solid red;
@@ -51,6 +53,7 @@ body .quote-section {
   position: relative;
   height: calc(100vh - 5rem);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -61,10 +64,27 @@ body .quote-section {
 }
 body .quote-section #quote {
   text-align: center;
-  padding: 5rem 0;
-  margin: 0;
+  margin: 5rem 0 0 0;
+  padding-bottom: 2rem;
   font-size: 6rem;
   color: #1D3557;
+}
+body .quote-section #sub-quote {
+  font-weight: 300;
+  color: #3B6A88;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  font-family: "Open Sans", sans-serif;
+}
+body .quote-section .link-icons .fab {
+  color: #1D3557;
+  font-size: 2.5rem;
+}
+body .quote-section .link-icons .fab:hover {
+  color: #E63946;
+}
+body .quote-section .link-icons .fa-twitter {
+  margin: 0 3rem;
 }
 body .quote-section__arrow {
   display: inline-block;
@@ -74,14 +94,46 @@ body .quote-section__arrow {
   transform: translateX(-50%);
 }
 body .quote-section .arrow {
-  border: solid #457B9D;
+  border: solid #1D3557;
   border-width: 0 3px 3px 0;
   padding: 1rem;
   display: inline-block;
   transform: rotate(45deg);
+  transition: 0.25s;
 }
-body #aboutPic {
-  margin-top: 10rem;
+body .quote-section .arrow:hover {
+  border-width: 0 5px 5px 0;
+}
+body #about-section {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10rem 10rem;
+}
+body #about-section #aboutPic {
+  height: 250px;
+  width: 250px;
+  border: 5px solid #1D3557;
+  border-radius: 5px;
+}
+body #about-section p {
+  font-family: "Open Sans", sans-serif;
+  color: #1D3557;
+  padding-left: 5.4rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+body #about-section p .first-letter {
+  color: #E63946;
+  float: left;
+  font-family: Georgia;
+  font-size: 5.5rem;
+  line-height: 70px;
+  background-color: #1D3557;
+  padding: 3px;
+  margin-right: 0.5rem;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
