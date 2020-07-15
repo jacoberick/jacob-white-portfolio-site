@@ -4,7 +4,9 @@ import LinkIcons from "./LinkIcons";
 const Footer = () => {
   return (
     <div id="footerSection">
-      <LinkIcons />
+      <div className="container">
+        <LinkIcons />
+      </div>
     </div>
   );
 };
