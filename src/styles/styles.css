@@ -82,6 +82,7 @@ body .quote-section .link-icons .fab {
 }
 body .quote-section .link-icons .fab:hover {
   color: #E63946;
+  transition: 0.35s;
 }
 body .quote-section .link-icons .fa-twitter {
   margin: 0 3rem;
@@ -104,27 +105,27 @@ body .quote-section .arrow {
 body .quote-section .arrow:hover {
   border-width: 0 5px 5px 0;
 }
-body #about-section {
+body #aboutSection {
   height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: 10rem 10rem;
 }
-body #about-section #aboutPic {
+body #aboutSection #aboutPic {
   height: 250px;
   width: 250px;
   border: 5px solid #1D3557;
   border-radius: 5px;
 }
-body #about-section p {
+body #aboutSection p {
   font-family: "Open Sans", sans-serif;
   color: #1D3557;
   padding-left: 5.4rem;
   font-size: 1.25rem;
   line-height: 2;
 }
-body #about-section p .first-letter {
+body #aboutSection p .first-letter {
   color: #E63946;
   float: left;
   font-family: Georgia;
@@ -134,6 +135,86 @@ body #about-section p .first-letter {
   padding: 3px;
   margin-right: 0.5rem;
   border-radius: 5px;
+}
+body .my-work-section {
+  height: 90vh;
+  margin-bottom: 10rem;
+}
+body .my-work-section #myWorkHeader {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #1D3557;
+  font-size: 2.5rem;
+}
+body .my-work-section .portfolio {
+  margin: 5rem 10rem 0rem 10rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+body .my-work-section .portfolio a {
+  text-decoration: none;
+  padding-bottom: 4rem;
+}
+body .my-work-section .portfolio a img {
+  height: 175px;
+  transition: transform 0.2s;
+  box-shadow: -4px 4px 8px #1D3557;
+}
+body .my-work-section .portfolio a img:hover {
+  transform: scale(1.2);
+}
+body .my-work-section .portfolio a p {
+  color: #1D3557;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+body .my-work-section .portfolio a .live {
+  background-color: #E63946;
+  padding: 1px 5px;
+  border-radius: 2px;
+  color: #fefefe;
+}
+body .my-work-section .portfolio a .live:hover {
+  background-color: #3B6A88;
+}
+body #ContactSection {
+  height: 50vh;
+}
+body #ContactSection .contactHeader {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #1D3557;
+  font-size: 3rem;
+}
+body #ContactSection a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  color: #3B6A88;
+}
+body #ContactSection a:hover {
+  color: #E63946;
+}
+body #footerSection {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+body #footerSection .link-icons {
+  font-size: 2rem;
+  border-top: 1px solid red;
+  padding: 1rem 15rem;
+}
+body #footerSection .link-icons .fa-twitter {
+  margin: 0 3rem;
+}
+body #footerSection .link-icons a {
+  color: #aaaaaa;
+  transition: 0.35s;
+}
+body #footerSection .link-icons a:hover {
+  color: #1D3557;
 }
 
 /*# sourceMappingURL=styles.css.map */
