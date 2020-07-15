@@ -10,10 +10,10 @@ const Header = () => {
         </a>
         <hr id="line" />
         <div className="nav-right">
-          <a href="">work</a>
-          <a href="">about</a>
+          <a href="#myWorkHeader">work</a>
+          <a href="#aboutSection">about</a>
           <a href="">resume</a>
-          <a href="">contact</a>
+          <a href="#ContactSection">contact</a>
         </div>
       </nav>
     </header>
