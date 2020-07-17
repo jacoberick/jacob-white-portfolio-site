@@ -101,6 +101,7 @@ body .quote-section .arrow {
   display: inline-block;
   transform: rotate(45deg);
   transition: 0.25s;
+  pointer-events: none;
 }
 body .quote-section .arrow:hover {
   border-width: 0 5px 5px 0;
@@ -190,6 +191,7 @@ body .my-work-section .portfolio a .live {
   padding: 1px 5px;
   border-radius: 2px;
   color: #fefefe;
+  margin-left: 0.5rem;
 }
 body .my-work-section .portfolio a .live:hover {
   background-color: #3B6A88;
