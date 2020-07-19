@@ -8,7 +8,9 @@ const Quote = () => {
       <h2 id="sub-quote">A Full Stack Web Developer</h2>
       <LinkIcons />
       <div id="arrowSection">
-        <a href="#aboutSection" className="quote-section__arrow arrow"></a>
+        <a href="#aboutSection" className="quote-section__arrow">
+          <i className="arrow down" />
+        </a>
       </div>
     </div>
   );

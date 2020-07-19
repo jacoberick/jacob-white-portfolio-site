@@ -105,6 +105,9 @@ body .quote-section .arrow {
 body .quote-section .arrow:hover {
   border-width: 0 5px 5px 0;
 }
+body .quote-section .arrow:active {
+  pointer-events: none;
+}
 body #aboutSection {
   min-height: 50vh;
   display: flex;
