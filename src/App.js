@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
-    $(document).on("click", ".quote-section a, .header a", function (e) {
+    $(document).on("click", "#arrowSection a, .header a", function (e) {
       e.preventDefault();
       let section = $(e.target).attr("href");
       let top = $(section).offset().top - 200;

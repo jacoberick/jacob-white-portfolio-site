@@ -12,7 +12,7 @@ const Header = () => {
           <a href="#aboutSection">about</a>
           <a href="#myWorkHeader">work</a>
           <a href="#ContactSection">contact</a>
-          <a href="">resume</a>
+          <a href="h">resume</a>
         </div>
       </nav>
     </header>

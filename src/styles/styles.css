@@ -101,7 +101,6 @@ body .quote-section .arrow {
   display: inline-block;
   transform: rotate(45deg);
   transition: 0.25s;
-  pointer-events: none;
 }
 body .quote-section .arrow:hover {
   border-width: 0 5px 5px 0;
