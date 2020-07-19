@@ -14,10 +14,8 @@ function App() {
     $(window).on("scroll", function () {
       if ($(window).scrollTop() > 100) {
         $(".header").addClass("active-header");
-        $(".nav").addClass("active-nav");
       } else {
         $(".header").removeClass("active-header");
-        $(".nav").removeClass("active-nav");
       }
     });
 
