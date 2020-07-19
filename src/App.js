@@ -11,6 +11,16 @@ import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
+    $(window).on("scroll", function () {
+      if ($(window).scrollTop() > 100) {
+        $(".header").addClass("active-header");
+        $(".nav").addClass("active-nav");
+      } else {
+        $(".header").removeClass("active-header");
+        $(".nav").removeClass("active-nav");
+      }
+    });
+
     $(document).on("click", "#arrowSection a, .header a", function (e) {
       e.preventDefault();
       let section = $(e.target).attr("href");
