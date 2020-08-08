@@ -8,6 +8,9 @@ const Header = () => {
           JW
         </a>
         <hr id="line" />
+        <button id="burgerButton">
+          <i className="fas fa-bars"></i>
+        </button>
         <div className="nav-right">
           <a href="#aboutSection">about</a>
           <a href="#myWorkHeader">work</a>

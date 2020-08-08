@@ -38,6 +38,13 @@ const Work = () => {
       src: "PAR",
       alt: "Public API Request Screenshot",
     },
+    {
+      name: "SQL Library Manager",
+      isLive: false,
+      href: "https://github.com/jacoberick/Sequel-Library-Manager",
+      src: "SQL",
+      alt: "SQL Library Manager Screenshot",
+    },
   ];
 
   return (
