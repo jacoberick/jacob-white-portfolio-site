@@ -47,7 +47,7 @@ body .header .nav #line {
   width: 100%;
   margin-left: 3.5rem;
 }
-body .header .nav #burgerButton {
+body .header .nav .burger-bag {
   display: none;
 }
 body .header .nav .nav-right a {
@@ -111,12 +111,43 @@ body .active-header .nav .logo-text {
   body .header .nav {
     flex-direction: row;
   }
-  body .header .nav #burgerButton {
-    display: flex;
-    border: 0;
-    font-size: 1.6rem;
-    background-color: transparent;
-    color: #1D3557;
+  body .header .nav .burger-bag {
+    display: block;
+    /* BURGER ANIMATION */
+  }
+  body .header .nav .burger-bag .burger {
+    width: 40px;
+    height: 4px;
+    background: #1D3557;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  body .header .nav .burger-bag ::before,
+body .header .nav .burger-bag ::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: #1D3557;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  body .header .nav .burger-bag ::before {
+    transform: translateY(-12px);
+  }
+  body .header .nav .burger-bag ::after {
+    transform: translateY(12px);
+  }
+  body .header .nav .burger-bag.open .burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  body .header .nav .burger-bag.open .burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  body .header .nav .burger-bag.open .burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
   }
   body .header .nav .nav-right {
     display: none;
@@ -131,7 +162,7 @@ body .active-header .nav .logo-text {
     padding: 8px 0;
     color: #F1FAEE;
   }
-  body .header .nav .nav-right.show-hide-links {
+  body .header .nav .nav-right.active-menu {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -139,8 +170,11 @@ body .active-header .nav .logo-text {
   body .header .nav #line {
     display: none;
   }
-  body .active-header .nav #burgerButton {
-    color: #F1FAEE;
+  body .active-header .nav .burger-bag .burger {
+    background: #F1FAEE;
+  }
+  body .active-header .nav .burger-bag .burger::before, body .active-header .nav .burger-bag .burger::after {
+    background: #F1FAEE;
   }
 }
 body .quote-section {

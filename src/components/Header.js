@@ -8,14 +8,14 @@ const Header = () => {
           JW
         </a>
         <hr id="line" />
-        <button id="burgerButton">
-          <i className="fas fa-bars"></i>
-        </button>
+        <div className="burger-bag">
+          <div className="burger"></div>
+        </div>
         <div className="nav-right">
-          <a href="#aboutSection">about</a>
-          <a href="#myWorkHeader">work</a>
-          <a href="#ContactSection">contact</a>
-          <a href="h">resume</a>
+          <a href="#aboutSection">About</a>
+          <a href="#myWorkHeader">Work</a>
+          <a href="#ContactSection">Contact</a>
+          <a href="h">Resume</a>
         </div>
       </nav>
     </header>

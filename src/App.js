@@ -11,10 +11,21 @@ import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
-    $("#burgerButton").click(() => {
+    const menuBtn = $(".burger-bag");
+    let menuOpen = false;
+    menuBtn.click(() => {
+      if (!menuOpen) {
+        menuBtn.addClass("open");
+        menuOpen = true;
+      } else {
+        menuBtn.removeClass("open");
+        menuOpen = false;
+      }
+    });
+
+    $(".burger-bag").click(() => {
       let navLinks = $(".nav-right");
-      console.log(navLinks);
-      navLinks.toggleClass("show-hide-links");
+      navLinks.toggleClass("active-menu");
     });
 
     $(window).on("scroll", function () {
