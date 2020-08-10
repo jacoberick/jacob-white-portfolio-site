@@ -11,23 +11,28 @@ import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
+    // toggle class open for burger menu
+    // applies animation on burger
     const menuBtn = $(".burger-bag");
-    let menuOpen = false;
     menuBtn.click(() => {
-      if (!menuOpen) {
-        menuBtn.addClass("open");
-        menuOpen = true;
-      } else {
-        menuBtn.removeClass("open");
-        menuOpen = false;
-      }
+      menuBtn.toggleClass("open");
     });
 
-    $(".burger-bag").click(() => {
-      let navLinks = $(".nav-right");
-      navLinks.toggleClass("active-menu");
+    // on click of nav links resets burger
+    const navLinks = $(".links a");
+    navLinks.click(() => {
+      $(".burger-bag").removeClass("open");
     });
 
+    // toggle .active-menu on click
+    // toggle nav-right into view
+    let nav = $(".nav-right");
+    $(".burger-bag, .links a").click(() => {
+      nav.toggleClass("active-menu");
+      $("body").toggleClass("freeze");
+    });
+
+    // on window scroll toggle active header class
     $(window).on("scroll", function () {
       if ($(window).scrollTop() > 50) {
         $(".header").addClass("active-header");
@@ -36,6 +41,7 @@ function App() {
       }
     });
 
+    // jumps down to target section on nav link click
     $(document).on("click", "#arrowSection a, .header a", function (e) {
       e.preventDefault();
       let section = $(e.target).attr("href");
