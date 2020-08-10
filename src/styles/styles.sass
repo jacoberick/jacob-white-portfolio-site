@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
 
-$background: #F1FAEE
+$background: #fefefe
 $highlight: #E63946
 $primary: #1D3557
 $secondary: #3B6A88
@@ -15,6 +15,10 @@ $small: "only screen and (max-width: 500px)"
 
 html, body
   background-color: $background
+
+//for preventing scroll when mobile menu is open
+.freeze
+  overflow: hidden
 
 body
   border: 10px solid $primary
@@ -82,13 +86,15 @@ body
           min-width: 380px
 
         .nav-right
-          display: flex
-          justify-content: space-around
           width: 100%
           min-width: 380px
 
-          a
-            margin-left: 0
+          .links
+            display: flex
+            justify-content: space-around
+
+            a
+              margin-left: 0
 
   .active-header
     padding: 0rem 10rem
@@ -118,6 +124,9 @@ body
 
         .burger-bag
           display: block
+          position: relative
+          z-index: 3
+
           .burger
             width: 40px
             height: 4px
@@ -150,27 +159,41 @@ body
 
             &::before
               transform: rotate(45deg) translate(35px, -35px)
+              background: $background
 
             &::after
               transform: rotate(-45deg) translate(35px, 35px)
+              background: $background
 
         .nav-right
-          display: none
+          display: flex
           position: absolute
-          top: 100%
-          left: 0
-          width: 100%
+          height: 100vh
           background-color: $primary
-          padding: 8px 0 12px
+          top: 0
+          right: 0
+          min-width: inherit
+          width: calc(100% - 5rem)
+          transition: 0.25s
+          transform: translateX(100%)
 
-          a
-            padding: 8px 0
-            color: $background
-
-          &.active-menu
+          .links
             display: flex
             flex-direction: column
-            text-align: center
+            margin-top: 11rem
+            justify-content: flex-start
+            margin-left: 3rem
+
+            a
+              padding: 8px 0
+              margin-bottom: 1.5rem
+              font-size: 2rem
+              color: $background
+
+          &.active-menu
+            transform: translateX(0%)
+            box-shadow: 0 0 15px $primary
+
 
         #line
           display: none
