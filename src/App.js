@@ -11,25 +11,28 @@ import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
-    // toggle class open for burger menu
-    // applies animation on burger
-    const menuBtn = $(".burger-bag");
-    menuBtn.click(() => {
-      menuBtn.toggleClass("open");
-    });
-
-    // on click of nav links resets burger
+    const burgerBag = $(".burger-bag");
+    const nav = $(".nav-right");
     const navLinks = $(".links a");
-    navLinks.click(() => {
-      $(".burger-bag").removeClass("open");
+    const body = $("body");
+
+    // function to toggle nav display
+    const toggleNav = () => {
+      burgerBag.toggleClass("open");
+      nav.toggleClass("active-menu");
+      body.toggleClass("freeze");
+    };
+
+    //on click of burgerBag and navLinks run toggleNav()
+    $(burgerBag, navLinks).click(() => {
+      toggleNav();
     });
 
-    // toggle .active-menu on click
-    // toggle nav-right into view
-    let nav = $(".nav-right");
-    $(".burger-bag, .links a").click(() => {
-      nav.toggleClass("active-menu");
-      $("body").toggleClass("freeze");
+    //close nav on click outside of div
+    $(window).click((e) => {
+      if (nav.hasClass("active-menu") && e.target.className !== "burger") {
+        toggleNav();
+      }
     });
 
     // on window scroll toggle active header class

@@ -11,6 +11,9 @@ html, body {
 .freeze {
   overflow: hidden;
 }
+.freeze a {
+  pointer-events: none;
+}
 
 body {
   border: 10px solid #1D3557;
@@ -179,6 +182,7 @@ body .header .nav .burger-bag ::after {
     margin-left: 3rem;
   }
   body .header .nav .nav-right .links a {
+    pointer-events: auto;
     padding: 8px 0;
     margin-bottom: 1.5rem;
     font-size: 2rem;
@@ -354,6 +358,11 @@ body #aboutSection p .first-letter {
     min-width: 230px;
   }
 }
+@media only screen and (max-width: 350px) {
+  body #aboutSection {
+    margin: 1rem 2.5rem;
+  }
+}
 body .my-work-section {
   min-height: 90vh;
   margin-bottom: 10rem;
@@ -414,6 +423,8 @@ body .my-work-section .portfolio a .live:hover {
 }
 body #ContactSection {
   min-height: 50vh;
+  width: 100%;
+  text-align: center;
 }
 body #ContactSection .contactHeader {
   font-family: "Open Sans", sans-serif;
@@ -423,7 +434,6 @@ body #ContactSection .contactHeader {
 }
 body #ContactSection a {
   text-decoration: none;
-  text-align: center;
   font-size: 2rem;
   color: #3B6A88;
 }
