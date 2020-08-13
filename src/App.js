@@ -30,7 +30,11 @@ function App() {
 
     //close nav on click outside of div
     $(window).click((e) => {
-      if (nav.hasClass("active-menu") && e.target.className !== "burger") {
+      if (
+        nav.hasClass("active-menu") &&
+        !$(e.target).parent(".nav").length &&
+        !$(e.target).hasClass("burger")
+      ) {
         toggleNav();
       }
     });

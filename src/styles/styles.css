@@ -124,6 +124,7 @@ body .active-header .nav .logo-text {
     display: block;
     position: relative;
     z-index: 3;
+    pointer-events: none;
     /* BURGER ANIMATION */
   }
   body .header .nav .burger-bag .burger {
@@ -132,6 +133,7 @@ body .active-header .nav .logo-text {
     background: #1D3557;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
+    pointer-events: auto;
   }
   body .header .nav .burger-bag ::before,
 body .header .nav .burger-bag ::after {
