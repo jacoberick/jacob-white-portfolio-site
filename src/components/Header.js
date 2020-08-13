@@ -16,7 +16,9 @@ const Header = () => {
             <a href="#aboutSection">About</a>
             <a href="#myWorkHeader">Work</a>
             <a href="#ContactSection">Contact</a>
-            <a href="h">Resume</a>
+            <a className="download-resume" href="./resume.pdf" download>
+              Resume
+            </a>
           </div>
         </div>
       </nav>

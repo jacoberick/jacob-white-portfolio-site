@@ -46,15 +46,17 @@ function App() {
 
     // jumps down to target section on nav link click
     $(document).on("click", "#arrowSection a, .header a", function (e) {
-      e.preventDefault();
-      let section = $(e.target).attr("href");
-      let top = $(section).offset().top - 200;
-      $("html, body").animate(
-        {
-          scrollTop: top,
-        },
-        1000
-      );
+      if (e.target.className !== "download-resume") {
+        e.preventDefault();
+        let section = $(e.target).attr("href");
+        let top = $(section).offset().top - 200;
+        $("html, body").animate(
+          {
+            scrollTop: top,
+          },
+          1000
+        );
+      }
     });
   });
 
