@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.56808f6c.chunk.css",
-    "main.js": "/static/js/main.3c07ba65.chunk.js",
-    "main.js.map": "/static/js/main.3c07ba65.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1076d7c6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1076d7c6.js.map",
-    "static/js/2.46908687.chunk.js": "/static/js/2.46908687.chunk.js",
-    "static/js/2.46908687.chunk.js.map": "/static/js/2.46908687.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c734f60dc5cfbca45601793ca98be366.js": "/precache-manifest.c734f60dc5cfbca45601793ca98be366.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.56808f6c.chunk.css.map": "/static/css/main.56808f6c.chunk.css.map",
-    "static/js/2.46908687.chunk.js.LICENSE.txt": "/static/js/2.46908687.chunk.js.LICENSE.txt",
-    "static/media/LPF.png": "/static/media/LPF.28486eb2.png",
-    "static/media/OOP.png": "/static/media/OOP.77231130.png",
-    "static/media/PAR.png": "/static/media/PAR.91da934f.png",
-    "static/media/SQL.png": "/static/media/SQL.bf87acf6.png",
-    "static/media/aboutPic.jpg": "/static/media/aboutPic.13a1879a.jpg",
-    "static/media/fullStackApp.png": "/static/media/fullStackApp.81e330f0.png",
-    "static/media/toDo.png": "/static/media/toDo.a8a8fdc7.png"
+    "main.css": "/jacob-white-portfolio-site/static/css/main.56808f6c.chunk.css",
+    "main.js": "/jacob-white-portfolio-site/static/js/main.d0c757c6.chunk.js",
+    "main.js.map": "/jacob-white-portfolio-site/static/js/main.d0c757c6.chunk.js.map",
+    "runtime-main.js": "/jacob-white-portfolio-site/static/js/runtime-main.2693211c.js",
+    "runtime-main.js.map": "/jacob-white-portfolio-site/static/js/runtime-main.2693211c.js.map",
+    "static/js/2.46908687.chunk.js": "/jacob-white-portfolio-site/static/js/2.46908687.chunk.js",
+    "static/js/2.46908687.chunk.js.map": "/jacob-white-portfolio-site/static/js/2.46908687.chunk.js.map",
+    "index.html": "/jacob-white-portfolio-site/index.html",
+    "precache-manifest.82dc8f3d3e6d4336dab2c9a220c7ef5f.js": "/jacob-white-portfolio-site/precache-manifest.82dc8f3d3e6d4336dab2c9a220c7ef5f.js",
+    "service-worker.js": "/jacob-white-portfolio-site/service-worker.js",
+    "static/css/main.56808f6c.chunk.css.map": "/jacob-white-portfolio-site/static/css/main.56808f6c.chunk.css.map",
+    "static/js/2.46908687.chunk.js.LICENSE.txt": "/jacob-white-portfolio-site/static/js/2.46908687.chunk.js.LICENSE.txt",
+    "static/media/LPF.png": "/jacob-white-portfolio-site/static/media/LPF.28486eb2.png",
+    "static/media/OOP.png": "/jacob-white-portfolio-site/static/media/OOP.77231130.png",
+    "static/media/PAR.png": "/jacob-white-portfolio-site/static/media/PAR.91da934f.png",
+    "static/media/SQL.png": "/jacob-white-portfolio-site/static/media/SQL.bf87acf6.png",
+    "static/media/aboutPic.jpg": "/jacob-white-portfolio-site/static/media/aboutPic.13a1879a.jpg",
+    "static/media/fullStackApp.png": "/jacob-white-portfolio-site/static/media/fullStackApp.81e330f0.png",
+    "static/media/toDo.png": "/jacob-white-portfolio-site/static/media/toDo.a8a8fdc7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1076d7c6.js",
+    "static/js/runtime-main.2693211c.js",
     "static/js/2.46908687.chunk.js",
     "static/css/main.56808f6c.chunk.css",
-    "static/js/main.3c07ba65.chunk.js"
+    "static/js/main.d0c757c6.chunk.js"
   ]
 }
