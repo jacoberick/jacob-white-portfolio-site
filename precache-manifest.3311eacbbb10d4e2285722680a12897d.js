@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6611515863222eced991294cf6bfd7e",
+    "revision": "538713e693abb3be291b449bfd6734e2",
     "url": "/jacob-white-portfolio-site/index.html"
   },
   {
-    "revision": "ebe97018d262e1f91b2f",
+    "revision": "a0572e13caf13bc5f2bd",
     "url": "/jacob-white-portfolio-site/static/css/main.56808f6c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jacob-white-portfolio-site/static/js/2.46908687.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ebe97018d262e1f91b2f",
-    "url": "/jacob-white-portfolio-site/static/js/main.d0c757c6.chunk.js"
+    "revision": "a0572e13caf13bc5f2bd",
+    "url": "/jacob-white-portfolio-site/static/js/main.6f4bdee0.chunk.js"
   },
   {
     "revision": "b2072598086824e1ee6a",
