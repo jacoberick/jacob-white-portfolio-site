@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9574fe94523736b78b0778a19291b8b3",
+    "revision": "16ef6ed0f77efd459629ed18f1f38eea",
     "url": "/jacob-white-portfolio-site/index.html"
   },
   {
-    "revision": "fc5b89ed51f8161032d8",
+    "revision": "52839eaa6bd6c233de3b",
     "url": "/jacob-white-portfolio-site/static/css/main.56808f6c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jacob-white-portfolio-site/static/js/2.46908687.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc5b89ed51f8161032d8",
-    "url": "/jacob-white-portfolio-site/static/js/main.a178d525.chunk.js"
+    "revision": "52839eaa6bd6c233de3b",
+    "url": "/jacob-white-portfolio-site/static/js/main.ea10688c.chunk.js"
   },
   {
     "revision": "b2072598086824e1ee6a",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "81e330f07f558dd8f261c9abb11e0b21",
     "url": "/jacob-white-portfolio-site/static/media/fullStackApp.81e330f0.png"
+  },
+  {
+    "revision": "21923061c6db95bf063f5593b30a0b08",
+    "url": "/jacob-white-portfolio-site/static/media/resume.21923061.pdf"
   },
   {
     "revision": "a8a8fdc7d4abd0a4336f5c111df41584",
