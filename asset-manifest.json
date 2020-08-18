@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/jacob-white-portfolio-site/static/css/main.56808f6c.chunk.css",
-    "main.js": "/jacob-white-portfolio-site/static/js/main.ea10688c.chunk.js",
-    "main.js.map": "/jacob-white-portfolio-site/static/js/main.ea10688c.chunk.js.map",
-    "runtime-main.js": "/jacob-white-portfolio-site/static/js/runtime-main.2693211c.js",
-    "runtime-main.js.map": "/jacob-white-portfolio-site/static/js/runtime-main.2693211c.js.map",
-    "static/js/2.46908687.chunk.js": "/jacob-white-portfolio-site/static/js/2.46908687.chunk.js",
-    "static/js/2.46908687.chunk.js.map": "/jacob-white-portfolio-site/static/js/2.46908687.chunk.js.map",
-    "index.html": "/jacob-white-portfolio-site/index.html",
-    "precache-manifest.c6ebfe6a191d371915c74bab1493266c.js": "/jacob-white-portfolio-site/precache-manifest.c6ebfe6a191d371915c74bab1493266c.js",
-    "service-worker.js": "/jacob-white-portfolio-site/service-worker.js",
-    "static/css/main.56808f6c.chunk.css.map": "/jacob-white-portfolio-site/static/css/main.56808f6c.chunk.css.map",
-    "static/js/2.46908687.chunk.js.LICENSE.txt": "/jacob-white-portfolio-site/static/js/2.46908687.chunk.js.LICENSE.txt",
-    "static/media/LPF.png": "/jacob-white-portfolio-site/static/media/LPF.28486eb2.png",
-    "static/media/OOP.png": "/jacob-white-portfolio-site/static/media/OOP.77231130.png",
-    "static/media/PAR.png": "/jacob-white-portfolio-site/static/media/PAR.91da934f.png",
-    "static/media/SQL.png": "/jacob-white-portfolio-site/static/media/SQL.bf87acf6.png",
-    "static/media/aboutPic.jpg": "/jacob-white-portfolio-site/static/media/aboutPic.13a1879a.jpg",
-    "static/media/fullStackApp.png": "/jacob-white-portfolio-site/static/media/fullStackApp.81e330f0.png",
-    "static/media/resume.pdf": "/jacob-white-portfolio-site/static/media/resume.21923061.pdf",
-    "static/media/toDo.png": "/jacob-white-portfolio-site/static/media/toDo.a8a8fdc7.png"
+    "main.css": "/jacobwhite.dev/static/css/main.56808f6c.chunk.css",
+    "main.js": "/jacobwhite.dev/static/js/main.0b470b36.chunk.js",
+    "main.js.map": "/jacobwhite.dev/static/js/main.0b470b36.chunk.js.map",
+    "runtime-main.js": "/jacobwhite.dev/static/js/runtime-main.93dc8c74.js",
+    "runtime-main.js.map": "/jacobwhite.dev/static/js/runtime-main.93dc8c74.js.map",
+    "static/js/2.46908687.chunk.js": "/jacobwhite.dev/static/js/2.46908687.chunk.js",
+    "static/js/2.46908687.chunk.js.map": "/jacobwhite.dev/static/js/2.46908687.chunk.js.map",
+    "index.html": "/jacobwhite.dev/index.html",
+    "precache-manifest.1a25f91c355c952e8c697c5243767f0d.js": "/jacobwhite.dev/precache-manifest.1a25f91c355c952e8c697c5243767f0d.js",
+    "service-worker.js": "/jacobwhite.dev/service-worker.js",
+    "static/css/main.56808f6c.chunk.css.map": "/jacobwhite.dev/static/css/main.56808f6c.chunk.css.map",
+    "static/js/2.46908687.chunk.js.LICENSE.txt": "/jacobwhite.dev/static/js/2.46908687.chunk.js.LICENSE.txt",
+    "static/media/LPF.png": "/jacobwhite.dev/static/media/LPF.28486eb2.png",
+    "static/media/OOP.png": "/jacobwhite.dev/static/media/OOP.77231130.png",
+    "static/media/PAR.png": "/jacobwhite.dev/static/media/PAR.91da934f.png",
+    "static/media/SQL.png": "/jacobwhite.dev/static/media/SQL.bf87acf6.png",
+    "static/media/aboutPic.jpg": "/jacobwhite.dev/static/media/aboutPic.13a1879a.jpg",
+    "static/media/fullStackApp.png": "/jacobwhite.dev/static/media/fullStackApp.81e330f0.png",
+    "static/media/resume.pdf": "/jacobwhite.dev/static/media/resume.21923061.pdf",
+    "static/media/toDo.png": "/jacobwhite.dev/static/media/toDo.a8a8fdc7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2693211c.js",
+    "static/js/runtime-main.93dc8c74.js",
     "static/js/2.46908687.chunk.js",
     "static/css/main.56808f6c.chunk.css",
-    "static/js/main.ea10688c.chunk.js"
+    "static/js/main.0b470b36.chunk.js"
   ]
 }
