@@ -1,5 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Portfolio Site
+A project to display some of my work
 
+## Live!
+jacobwhite.dev
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react
 ## Available Scripts
 
 In the project directory, you can run:
