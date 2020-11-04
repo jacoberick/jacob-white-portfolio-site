@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 const LinkIcons = () => {
   return (
@@ -9,13 +15,14 @@ const LinkIcons = () => {
         href="https://github.com/jacoberick"
       >
         <i className="fab fa-github"></i>
+        <FontAwesomeIcon className="fab fa-github" icon={faGithub} />
       </a>
       <a
         rel="noopener noreferrer"
         target="_blank"
         href="https://twitter.com/jacobwhitedev"
       >
-        <i className="fab fa-twitter"></i>
+        <FontAwesomeIcon className="fab fa-twitter" icon={faTwitter} />
       </a>
       <a
         rel="noopener noreferrer"
@@ -23,6 +30,7 @@ const LinkIcons = () => {
         href="https://www.linkedin.com/in/jacob-white-9356b719a"
       >
         <i className="fab fa-linkedin"></i>
+        <FontAwesomeIcon className="fab fa-linkedin" icon={faLinkedin} />
       </a>
     </div>
   );
