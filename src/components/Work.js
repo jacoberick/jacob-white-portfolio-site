@@ -3,6 +3,13 @@ import React from "react";
 const Work = () => {
   const projects = [
     {
+      name: "Moving Company Website",
+      isLive: true,
+      href: "https://jacoberick.github.io/Home-Aid-Moving/",
+      src: "move",
+      alt: "Moving Company Website Screenshot",
+    },
+    {
       name: "Full Stack App with React and REST API",
       isLive: false,
       href:
