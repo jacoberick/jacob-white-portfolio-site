@@ -3,6 +3,13 @@ import React from "react";
 const Work = () => {
   const projects = [
     {
+      name: "Gulag Anthem Blog App",
+      isLive: true,
+      href: "https://gulaganthem.com",
+      src: "gulag",
+      alt: "Gulag Anthem Screenshot",
+    },
+    {
       name: "Moving Company Website",
       isLive: true,
       href: "https://jacoberick.github.io/Home-Aid-Moving/",
@@ -12,17 +19,9 @@ const Work = () => {
     {
       name: "Full Stack App with React and REST API",
       isLive: false,
-      href:
-        "https://github.com/jacoberick/Full-Stack-App-with-React-and-a-REST-API",
+      href: "https://github.com/jacoberick/Full-Stack-App-with-React-and-a-REST-API",
       src: "fullStackApp",
       alt: "My Full Stack App Screenshot",
-    },
-    {
-      name: "React To Do List",
-      isLive: true,
-      href: "https://jacoberick.github.io/to-do-list/",
-      src: "toDo",
-      alt: "React To-Do-List Screenshot",
     },
     {
       name: "Phrase Hunter Game",
