@@ -3,6 +3,20 @@ import React from "react";
 const Work = () => {
   const projects = [
     {
+      name: "Seeker",
+      isLive: true,
+      href: "https://jacoberick.github.io/seeker/",
+      src: "seek",
+      alt: "Seeker Screenshot",
+    },
+    {
+      name: "Keys",
+      isLive: true,
+      href: "https://jacoberick.github.io/keys/",
+      src: "keys",
+      alt: "Keys Screenshot",
+    },
+    {
       name: "Gulag Anthem Blog App",
       isLive: true,
       href: "https://gulaganthem.com",
