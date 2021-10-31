@@ -74,7 +74,7 @@ const Work = () => {
         <div className="portfolio__inner">
           {projects.map((p, id) => (
             <a key={id} rel="noopener noreferrer" target="_blank" href={p.href}>
-              <img src={require(`../imgs/${p.src}.png`)} alt={p.alt} />
+              <img src={`/imgs/${p.src}.png`} alt={p.alt} />
               <p>
                 {p.name}
                 {p.isLive ? <span className="live">LIVE</span> : false}
