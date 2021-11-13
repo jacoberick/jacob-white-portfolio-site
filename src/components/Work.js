@@ -3,6 +3,13 @@ import React from "react";
 const Work = () => {
   const projects = [
     {
+      name: "Art Portfolio",
+      isLive: true,
+      href: "https://gulaganthem.com",
+      src: "art",
+      alt: "Art Portfolio Screenshot",
+    },
+    {
       name: "Seeker",
       isLive: true,
       href: "https://jacoberick.github.io/seeker/",
@@ -17,11 +24,11 @@ const Work = () => {
       alt: "Keys Screenshot",
     },
     {
-      name: "Gulag Anthem Blog App",
+      name: "Blog App",
       isLive: true,
-      href: "https://gulaganthem.com",
+      href: "https://blog-app-three-eta.vercel.app/",
       src: "gulag",
-      alt: "Gulag Anthem Screenshot",
+      alt: "Blog App Screenshot",
     },
     {
       name: "Moving Company Website",
