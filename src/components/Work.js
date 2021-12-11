@@ -3,6 +3,13 @@ import React from "react";
 const Work = () => {
   const projects = [
     {
+      name: "UMBRELLA (Generative Art Algorithm)",
+      isLive: true,
+      href: "https://umbrellacode.xyz",
+      src: "umb",
+      alt: "UMBRELLA Screenshot",
+    },
+    {
       name: "Art Portfolio",
       isLive: true,
       href: "https://gulaganthem.com",
