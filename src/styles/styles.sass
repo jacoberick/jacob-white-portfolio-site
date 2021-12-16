@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
 
-$background: #fefefe
+$background: #121212
 $highlight: #E63946
-$primary: #1D3557
-$secondary: #3B6A88
+$primary: #FEFEFE
+$secondary: #E63946
 
 $large: "only screen and (max-width: 1024px)"
 $medium: "only screen and (max-width: 768px)"
@@ -24,7 +24,6 @@ html, body
     pointer-events: none
 
 body
-  border: 10px solid $primary
   margin: 0
 
   // HEADER SECTION
@@ -388,7 +387,6 @@ body
         img
           width: 100%
           transition: transform .2s
-          box-shadow: -4px 4px 8px $primary
 
           &:hover
             transform: scale(1.1)
@@ -431,7 +429,7 @@ body
       transition: color .15s
 
       &:hover
-        color: $highlight
+        text-decoration: underline
 
     @media #{$medium}
       .contactHeader
