@@ -11,8 +11,8 @@ const Work = () => {
     },
     {
       name: "Art Portfolio",
-      isLive: true,
-      href: "https://gulaganthem.com",
+      isLive: false,
+      href: "https://github.com/jacoberick/gulag-anthem-art",
       src: "art",
       alt: "Art Portfolio Screenshot",
     },
