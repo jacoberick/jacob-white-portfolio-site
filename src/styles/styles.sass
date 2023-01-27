@@ -294,10 +294,11 @@ body
   // ABOUT SECTION
   #aboutSection
     min-height: 50vh
-    padding: 0 5rem
+    padding: 5rem
     position: relative
     display: flex
     justify-content: center
+    background-color: $backgroundTwo
 
     #aboutInner
       display: flex
@@ -305,53 +306,56 @@ body
       align-items: center
       max-width: 80rem
 
-      #aboutPic
-        height: 250px
-        width: 250px
-        border: 5px solid $primary
-        border-radius: 5px
-
-      p
+      #aboutTextContainer
         font-family: 'Open Sans', sans-serif
         color: $primary
-        padding-left: 5.4rem
-        font-size: 1.25rem
+        font-size: 1rem
         line-height: 2
+        padding: 1rem 2rem
+        margin-left: 5rem
+        border-radius: 5px
+        background-color: $background
 
         .first-letter
           color: $highlight
           font-family: Georgia
           font-size: 5.5rem
-          line-height: 70px
+          line-height: 6rem
           background-color: $primary
-          padding: 0 5px
+          padding: 0 1rem
           margin-right: .5rem
           border-radius: 5px
+
+      #aboutPic
+        height: 250px
+        width: 250px
+        border: 5px solid $primary
+        border-radius: 5px
+        margin-bottom: 2rem
 
       @media only screen and (max-width: 1125px)
         flex-direction: column
 
-        p
-          padding: 0
+        #aboutTextContainer
+          margin: 0
+      
+  @media #{$medium}
+    #aboutSection
+      padding: 3rem
 
-      @media #{$large}
-        padding: 0
+  @media #{$small}
+    #aboutSection
+      padding: 1rem
 
-        #aboutPic
-          height: 200px
-          width: 200px
+      #aboutInner
 
-        p
-          font-size: 1.1rem
+        #aboutTextContainer
+          font-size: 0.8rem
 
-          .first-letter
+          .first-letter 
             font-size: 4rem
+            line-height: 5rem
 
-    @media #{$small}
-      padding: 0 2rem
-
-    @media #{$small}
-      padding: 0 1.5rem
 
   // MY WORK SECTION
   .my-work-section

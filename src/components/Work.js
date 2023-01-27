@@ -1,11 +1,11 @@
-import React from "react";
+import React from "react"
 
 const Work = () => {
   const projects = [
     {
       name: "UMBRELLA (Generative Art Algorithm)",
       isLive: true,
-      href: "https://umbrellacode.xyz",
+      href: "https://jacoberick.github.io/umbrella/",
       src: "umb",
       alt: "UMBRELLA Screenshot",
     },
@@ -32,8 +32,8 @@ const Work = () => {
     },
     {
       name: "Blog App",
-      isLive: true,
-      href: "https://blog-app-three-eta.vercel.app/",
+      isLive: false,
+      href: "https://github.com/jacoberick/blog-app",
       src: "gulag",
       alt: "Blog App Screenshot",
     },
@@ -79,11 +79,11 @@ const Work = () => {
       src: "SQL",
       alt: "SQL Library Manager Screenshot",
     },
-  ];
+  ]
 
   return (
     <div className="my-work-section">
-      <h1 id="myWorkHeader">My Work</h1>
+      <h1 id="myWorkHeader">Some of My Work</h1>
       <div className="portfolio">
         <div className="portfolio__inner">
           {projects.map((p, id) => (
@@ -98,7 +98,7 @@ const Work = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Work;
+export default Work
