@@ -1,9 +1,6 @@
 # My Portfolio Site
 A project to display some of my work
 
-## Live!
-http://jacobwhite.dev
-
 ## To run locally...
 
 In the project directory, you can run:
